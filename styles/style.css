@@ -1,0 +1,104 @@
+body {
+   background: #111;
+   color: white;
+   font-size: 16px;
+}
+* {
+   box-sizing: border-box;
+}
+:root {
+   --blue: #039dfc;
+   --blue2: #066fb1;
+   --blue3: #054872;
+}
+a {
+   color: var(--blue);
+   text-decoration: none;
+   transition: all .2s linear;
+}
+a:hover {
+   text-shadow: 0 0 10px var(--blue);
+   transition: all .2s linear;
+}
+.link {
+   font-size: 23px;
+}
+p {
+   margin: 0;
+   letter-spacing: 0.03em;
+   line-height: 1.55em;
+}
+h1,h2,h3,h4,h5,h6 {
+   font-weight: 700;
+   padding: 0;
+   margin: 0;
+}
+/* HEADER */
+.header {
+   padding-top: 20px;
+}
+/* HEADER-CONTENT */
+.header-content {
+   display: flex;
+   justify-content: space-between;
+}
+/* CONTAINER */
+.container {
+   width: 100%;
+   max-width: 1110px;
+   margin: 0 auto;
+   align-items: center;
+}
+/* NAV */
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 52px;
+}
+.logo {
+   font-size: 50px;
+}
+/* HEADER-CONTENT */
+.title {
+   font-size: 15px;
+   margin-bottom: 21px;
+   margin-top: 30px;
+}
+.bio {
+   font-size: 34px;
+   line-height: 1.1em;
+   text-transform: uppercase;
+}
+.desc {
+   font-size: 14px;
+   margin-bottom: 20px;
+   margin-top: 21px;
+}
+.btn {
+   background: var(--blue);
+   color: white;
+   font-size: 18px;
+   padding: 18px 30px;
+   font-weight: 700;
+   display: block;
+   width: 170px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.btn:hover {
+   background: var(--blue2);
+}
+.btn:active {
+   background: var(--blue3);
+}
+.intro {
+   background-color: #eaeaea;
+   padding: 30px;
+   color: black;
+   width: 441px;
+}
+.intro-title {
+   margin-bottom: 17px;
+   font-weight: 700;
+}
